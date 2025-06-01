@@ -66,4 +66,5 @@ A model specifically designed for NSFW (Not Safe For Work) image detection. It c
 2. **Facebook/deit-base-patch16-224**  
 A vision transformer model (Data-efficient Image Transformer) pre-trained on ImageNet. It excels in general image classification tasks and is used here for fine-grained analysis of image content. The model processes images in 224x224 patches, providing robust feature extraction for moderation purposes.
 
-These models work together to ensure accurate detection of harmful or unwanted imagery, balancing speed and precision.
+> ⚠️ **Note**
+> The Facebook model uses simple image classification. A custom hate symbol detection model would need to be trained from scratch, beyond the project deadline.
