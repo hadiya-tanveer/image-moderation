@@ -25,6 +25,7 @@ A secure, scalable Image Moderation API built with FastAPI, MongoDB, and Docker.
    ```
 
 ## Folder Structure
+```bash
 Image-moderation/
 │
 ├── backend/
@@ -47,6 +48,7 @@ Image-moderation/
 │
 ├── docker-compose.yml                # Docker compose configuration
 └── README.md                         # Project documentation
+```
 
 ## Code Overview
 
