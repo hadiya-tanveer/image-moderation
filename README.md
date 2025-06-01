@@ -16,10 +16,13 @@ A secure, scalable Image Moderation API built with FastAPI, MongoDB, and Docker.
 
 3. **Access the Frontend**:
     Open your browser and go to:
+   ```bash
     http://localhost:8080/
-
+   ```
     Use the initial admin token:
+   ```bash
     admintoken123
+   ```
 
 ## Folder Structure
 Image-moderation/
