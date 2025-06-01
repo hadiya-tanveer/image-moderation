@@ -1,5 +1,5 @@
 from fastapi import Request, HTTPException, status, Depends
-from models import is_valid_token, log_usage
+from app.models import is_valid_token, log_usage
 
 def get_token_auth(admin_only=False):
     async def verify_token(request: Request):

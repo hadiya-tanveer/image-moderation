@@ -1,8 +1,8 @@
 from fastapi import FastAPI, File, UploadFile, Depends
 
-from auth import get_token_auth
-from moderation import analyze_image_mock
-from models import create_token, get_all_tokens, delete_token
+from app.auth import get_token_auth
+from app.moderation import analyze_image_mock
+from app.models import create_token, get_all_tokens, delete_token
 import secrets
 
 app = FastAPI()
