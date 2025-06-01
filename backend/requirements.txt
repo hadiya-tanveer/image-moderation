@@ -1,6 +1,11 @@
+torch
+pillow
+uvicorn
 fastapi
 pymongo
-uvicorn
+tf-keras
 pydantic
+transformers
 python-dotenv
+tensorflow-cpu
 python-multipart
